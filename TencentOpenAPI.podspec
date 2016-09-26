@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
   s.source           = { :git => 'https://github.com/rRun/TencentOpenAPI.git', :tag => s.version.to_s }
+
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '6.0'
@@ -35,14 +36,11 @@ Pod::Spec.new do |s|
 
   s.resources = "TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
   s.vendored_frameworks = 'TencentOpenAPI/TencentOpenAPI.framework'
-  s.public_header_files = "TencentOpenAPI/TencentOpenAPI.framework/Headers/**/*.h"
+  s.source_files = 'TencentOpenAPI/**/*'
+  #s.public_header_files = "TencentOpenAPI/TencentOpenAPI.framework/Headers/*.h"
 
-  the_frameworks =  [
-                      '"SystemConfiguration"',
-                      '"CoreTelephony"'
-                    ]
-  the_ldflags    = '$(inherited) -lz -lsqlite3 -liconv -lstdc++ -framework ' + the_frameworks.join(' -framework ') + ''
-
-  s.xcconfig = { 'OTHER_LDFLAGS' => the_ldflags }
+  s.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
+  s.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
+  s.xcconfig            = { "FRAMEWORK_SEARCH_PATHS" => "$(inherited)" }
 
 end
