@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name       	     = 'TencentOpenAPI'
   s.version          = '3.1.0'
-  s.summary          = 'TencentOpenAPI3.1'
+  s.summary          = 'TencentOpenAPI v3.1'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,9 +22,10 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = 'http://open.qq.com'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hexy' => 'hexy@cdfortis.com' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+
   s.source           = { :git => 'https://github.com/rRun/TencentOpenAPI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,14 +33,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  #
-s.source       = { :git => 'https://github.com/rRun/TencentOpenAPI.git', :tag => 'v#{spec.version}' }
+  s.resources = "TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle"
+  s.vendored_frameworks = 'TencentOpenAPI/TencentOpenAPI.framework'
+  s.public_header_files = "TencentOpenAPI/TencentOpenAPI.framework/Headers/**/*.h"
 
-  
-  s.resources = "QQConnectSDk/TencentOpenApi_IOS_Bundle.bundle"
-  s.vendored_frameworks = 'QQConnectSDk/TencentOpenAPI.framework'
-  s.public_header_files = "QQConnectSDk/Headers/**/*.h"
-  
   the_frameworks =  [
                       '"SystemConfiguration"',
                       '"CoreTelephony"'
