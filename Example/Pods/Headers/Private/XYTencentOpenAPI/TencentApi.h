@@ -1,0 +1,1 @@
+../../../../../XYTencentOpenAPI/Classes/TencentApi.h

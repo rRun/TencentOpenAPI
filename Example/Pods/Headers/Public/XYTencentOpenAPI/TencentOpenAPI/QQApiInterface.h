@@ -1,0 +1,1 @@
+../../../../../../XYTencentOpenAPI/Assets/TencentOpenAPI.framework/Headers/QQApiInterface.h

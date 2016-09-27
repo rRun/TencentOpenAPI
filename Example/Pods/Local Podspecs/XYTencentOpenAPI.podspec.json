@@ -1,0 +1,37 @@
+{
+  "name": "XYTencentOpenAPI",
+  "version": "3.1.0",
+  "summary": "TencentOpenAPI v3.1",
+  "description": "This pod is used who want to use tencentOpenAPI v3.1 with podfile.",
+  "homepage": "http://open.qq.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hexy": "hexy@cdfortis.com"
+  },
+  "source": {
+    "git": "https://github.com/rRun/TencentOpenAPI.git",
+    "tag": "3.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "XYTencentOpenAPI/Classes/**/*",
+  "resources": "XYTencentOpenAPI/Assets/TencentOpenApi_IOS_Bundle.bundle",
+  "libraries": [
+    "iconv",
+    "z",
+    "c++",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "Security",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony"
+  ],
+  "vendored_frameworks": "XYTencentOpenAPI/Assets/TencentOpenAPI.framework"
+}

@@ -1,0 +1,11 @@
+#use_frameworks!
+
+target 'XYTencentOpenAPI_Example' do
+  pod 'XYTencentOpenAPI', :path => '../'
+
+  target 'XYTencentOpenAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
