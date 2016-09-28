@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TencentOpenAPI/TencentOAuth.h>
-#import <TencentOpenAPI/TencentApiInterface.h>
+#import "TencentOAuth.h"
+#import "TencentApiInterface.h"
 
 @interface TencentApi : NSObject
 

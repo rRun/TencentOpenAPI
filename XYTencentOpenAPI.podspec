@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
-  s.source_files = 'XYTencentOpenAPI/Classes/**/*'
+  s.source_files = 'XYTencentOpenAPI/Classes/**/*','XYTencentOpenAPI/Assets/TencentOpenAPI.framework/Headers/**/*'
   
   # s.resource_bundles = {
   #   'XYTencentOpenAPI' => ['XYTencentOpenAPI/Assets/*.png']
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 
   s.resources = "XYTencentOpenAPI/Assets/TencentOpenApi_IOS_Bundle.bundle"
 
-  s.public_header_files = 'XYTencentOpenAPI/Classes/**/*.h'
+  s.public_header_files = 'XYTencentOpenAPI/Assets/TencentOpenAPI.framework/Headers/**/*'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 

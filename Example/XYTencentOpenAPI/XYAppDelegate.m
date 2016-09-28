@@ -7,7 +7,7 @@
 //
 
 #import "XYAppDelegate.h"
-#import <XYTencentOpenAPI/TencentApi.h>
+#import <XYTencentOpenAPI/TencentOpenAPI/TencentOAuth.h>
 @implementation XYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

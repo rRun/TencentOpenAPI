@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E19E63A279A21145CB7AF53924346F8 /* TencentApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA64CF068F98C39716D290C31B06EB6 /* TencentApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1396A83003B444B7991C036B5884A545 /* Pods-XYTencentOpenAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0922C0CADB2725D350E4F1195092B957 /* Pods-XYTencentOpenAPI_Example-dummy.m */; };
-		3E5F66F37FB26A77FBDAD426F63CB9AA /* TencentApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C32CB6F35DE04F320F91E3F5EF8F0A /* TencentApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FAABD6DE963C3D410096E1A33E7DB3A /* TencentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = F22CD4960CC5EEF2FF85A9C2CB4A70CC /* TencentApi.m */; };
-		58998965A520EDCAB1151D53725E10E6 /* XYTencentOpenAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A8D7E7CF3E7BDA85F250A48852BD4 /* XYTencentOpenAPI-dummy.m */; };
+		1A3A88375A51DBB536016B5F86E949A0 /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EBF6B512DF986EB53E06AFC9DAF999 /* TencentOAuthObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		408E4570A0C9A8E4D7132EEDFE729590 /* TencentApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 34711EB17DC848D3E8E594706A7F9073 /* TencentApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4465F68DCEFD3EEA248CD0F95662C566 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B930591481D56C75583D5FA09F2375 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAABD6DE963C3D410096E1A33E7DB3A /* TencentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B73E48B5F75DABBBBB26C8DF9F2185 /* TencentApi.m */; };
+		58998965A520EDCAB1151D53725E10E6 /* XYTencentOpenAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BDAEE323F076B2704E5E8723DCE198 /* XYTencentOpenAPI-dummy.m */; };
 		673035662B5DAD4AF7F0931B3D35B1DB /* Pods-XYTencentOpenAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9DA143049691E89CBE4590BBBE01EA /* Pods-XYTencentOpenAPI_Tests-dummy.m */; };
 		7652550BEBD2F29CA628EECD89BE30EE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40652D2B8384AAB9152E6AE8A3978245 /* Security.framework */; };
+		7F4D465A870C3CD6F32409038A15E677 /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A30CFCA068C4D6FAFD01799D743C8E /* TencentOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9B328D70500607856FAA527B2942C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0793E3FD103F10D1E440BD0701B38070 /* Foundation.framework */; };
+		977C550BF42740EA68984EDF3593549A /* TencentMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7051ADAA89718B64DB3AF8405893DF66 /* TencentMessageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A92F08C0F6488ABD07A4477030BB865 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6A41EDD2B97D5164200831225258A6 /* QQApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74750C06022DF63A838327270C24ACF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB940AB84C64CC70DE0628612F45716 /* CoreGraphics.framework */; };
 		B6F8D8860AE185BEC106747A1AAEBFA2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7882D5C775B871D1FE4E60B45C90A5 /* SystemConfiguration.framework */; };
 		BC3D5029998766047695672DF4A30530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0793E3FD103F10D1E440BD0701B38070 /* Foundation.framework */; };
 		C3537C8285994FC89FAD2E6D6FE60BB9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6547702EA3BE75A92A276E3A2560385A /* CoreTelephony.framework */; };
+		F847D9D1F771E148C99503F8FEEAB733 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB5ED31A306E8F64165766121DD196E /* sdkdef.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFB0A360EF07853FC9D08E55CF367B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0793E3FD103F10D1E440BD0701B38070 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,31 +44,38 @@
 		0922C0CADB2725D350E4F1195092B957 /* Pods-XYTencentOpenAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYTencentOpenAPI_Example-dummy.m"; sourceTree = "<group>"; };
 		0E45D7D2CA9107294EC5438797258E40 /* Pods-XYTencentOpenAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYTencentOpenAPI_Tests-resources.sh"; sourceTree = "<group>"; };
 		15E27A64120184EA3321AB0F87FA493E /* libPods-XYTencentOpenAPI_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYTencentOpenAPI_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28C10A38FC1DCF8EB00AD3B1670AD1C2 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = XYTencentOpenAPI/Assets/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		29C32CB6F35DE04F320F91E3F5EF8F0A /* TencentApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentApi.h; sourceTree = "<group>"; };
+		34711EB17DC848D3E8E594706A7F9073 /* TencentApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentApiInterface.h; sourceTree = "<group>"; };
 		3C9DA143049691E89CBE4590BBBE01EA /* Pods-XYTencentOpenAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYTencentOpenAPI_Tests-dummy.m"; sourceTree = "<group>"; };
 		40652D2B8384AAB9152E6AE8A3978245 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		40A30CFCA068C4D6FAFD01799D743C8E /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
 		46463A2F6EC26D1519D4CDBE1C06C9C8 /* Pods-XYTencentOpenAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYTencentOpenAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		49BDAEE323F076B2704E5E8723DCE198 /* XYTencentOpenAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYTencentOpenAPI-dummy.m"; sourceTree = "<group>"; };
 		515F45D62803BB1A279BE0A590397CCA /* Pods-XYTencentOpenAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYTencentOpenAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		54F5D0C9661B5251C5BD3126A0F442B0 /* Pods-XYTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		594FDA0578F2CC2B5E7AC7DBC44DF742 /* Pods-XYTencentOpenAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYTencentOpenAPI_Example-resources.sh"; sourceTree = "<group>"; };
 		59DC9822100BE0D4BACB591FEF6BBE11 /* Pods-XYTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A57788073DF1B3D6A9D9B3AD548F986 /* libXYTencentOpenAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXYTencentOpenAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EDC5E8192C018ACDE06396B0DC1EAB2 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		608AE763C73F9F71F401A9C0D4DFC904 /* Pods-XYTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6547702EA3BE75A92A276E3A2560385A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		66B73E48B5F75DABBBBB26C8DF9F2185 /* TencentApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TencentApi.m; sourceTree = "<group>"; };
+		7051ADAA89718B64DB3AF8405893DF66 /* TencentMessageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentMessageObject.h; sourceTree = "<group>"; };
+		75B930591481D56C75583D5FA09F2375 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		771852FCF4C15C100190FD1CA2582C93 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		7A6A41EDD2B97D5164200831225258A6 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		7AA64CF068F98C39716D290C31B06EB6 /* TencentApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentApi.h; sourceTree = "<group>"; };
+		81EBF6B512DF986EB53E06AFC9DAF999 /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuthObject.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A29F1A27E401E4E5D2B85498908A696 /* libPods-XYTencentOpenAPI_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYTencentOpenAPI_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFC1BEC37A06522B10AF4D4A3532C0B /* Pods-XYTencentOpenAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYTencentOpenAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCC0472BCB19123AE525F59AE5FC4BD4 /* XYTencentOpenAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYTencentOpenAPI-prefix.pch"; sourceTree = "<group>"; };
 		BD7882D5C775B871D1FE4E60B45C90A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		C5C03870BF92D17DA521E88F6FD91D68 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = XYTencentOpenAPI/Assets/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		C86F1296844C6BC353395FF3CB2518EA /* Pods-XYTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC3C2A8403F4D40B99B90173B3CEE93B /* XYTencentOpenAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYTencentOpenAPI.xcconfig; sourceTree = "<group>"; };
 		CFB940AB84C64CC70DE0628612F45716 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		D6C1742E470DC4162B037242C6B220FF /* XYTencentOpenAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYTencentOpenAPI.xcconfig; sourceTree = "<group>"; };
-		E10A8D7E7CF3E7BDA85F250A48852BD4 /* XYTencentOpenAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYTencentOpenAPI-dummy.m"; sourceTree = "<group>"; };
+		D7083F1C5BCD244B93AE88138295D7E3 /* XYTencentOpenAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYTencentOpenAPI-prefix.pch"; sourceTree = "<group>"; };
 		EC8E50D6615D5CFEB602C6C9ADCCD939 /* Pods-XYTencentOpenAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYTencentOpenAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F22CD4960CC5EEF2FF85A9C2CB4A70CC /* TencentApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TencentApi.m; sourceTree = "<group>"; };
 		F8C6A02B46866423D02E2C446378B6DD /* Pods-XYTencentOpenAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYTencentOpenAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FEB5ED31A306E8F64165766121DD196E /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,14 +133,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		21A69256A43B0865810003D09E028BC9 /* XYTencentOpenAPI */ = {
-			isa = PBXGroup;
-			children = (
-				F85CC360727894C66804474657191E6F /* Assets */,
-			);
-			path = XYTencentOpenAPI;
-			sourceTree = "<group>";
-		};
 		30E9BAC07243564DC7BAE9A4A93BA397 /* Pods-XYTencentOpenAPI_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,37 +148,43 @@
 			path = "Target Support Files/Pods-XYTencentOpenAPI_Tests";
 			sourceTree = "<group>";
 		};
-		3C18032E8B09F52DB3A69D2C04B02D82 /* Frameworks */ = {
+		3214EBF972E4B036ECF452BD46AC534B /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				28C10A38FC1DCF8EB00AD3B1670AD1C2 /* TencentOpenAPI.framework */,
+				7A6A41EDD2B97D5164200831225258A6 /* QQApiInterface.h */,
+				75B930591481D56C75583D5FA09F2375 /* QQApiInterfaceObject.h */,
+				FEB5ED31A306E8F64165766121DD196E /* sdkdef.h */,
+				34711EB17DC848D3E8E594706A7F9073 /* TencentApiInterface.h */,
+				7051ADAA89718B64DB3AF8405893DF66 /* TencentMessageObject.h */,
+				40A30CFCA068C4D6FAFD01799D743C8E /* TencentOAuth.h */,
+				81EBF6B512DF986EB53E06AFC9DAF999 /* TencentOAuthObject.h */,
 			);
-			name = Frameworks;
+			path = Headers;
 			sourceTree = "<group>";
 		};
-		42F341456424F2FFA76AFC0E56243DD9 /* Resources */ = {
+		3695C68CC9F72621645BE7AA384462C6 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				21A69256A43B0865810003D09E028BC9 /* XYTencentOpenAPI */,
+				E0ADC0765E976207AD35989DDD0AB573 /* TencentOpenAPI.framework */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4E95A0E9DE393531BF8F9BD2641380D1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				29C32CB6F35DE04F320F91E3F5EF8F0A /* TencentApi.h */,
-				F22CD4960CC5EEF2FF85A9C2CB4A70CC /* TencentApi.m */,
-			);
-			path = Classes;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		5302DE2A56E34DFFD9788AA0EB709E1C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BC953CC668EFCF4F659D4A190D97D7BC /* XYTencentOpenAPI */,
+				81DFDB41EAB0F2982D5940CC6E4816FD /* XYTencentOpenAPI */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53883022E7EBE7E83AFC6A7E73CEBFA3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7AA64CF068F98C39716D290C31B06EB6 /* TencentApi.h */,
+				66B73E48B5F75DABBBBB26C8DF9F2185 /* TencentApi.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		68B76E65F99EBC2A674708FE81EFA397 /* iOS */ = {
@@ -198,24 +210,44 @@
 			);
 			sourceTree = "<group>";
 		};
-		AE59591FCCAAECBA2E7ECEB5916E4920 /* XYTencentOpenAPI */ = {
+		81DFDB41EAB0F2982D5940CC6E4816FD /* XYTencentOpenAPI */ = {
 			isa = PBXGroup;
 			children = (
-				4E95A0E9DE393531BF8F9BD2641380D1 /* Classes */,
+				E3A6DFAB9FD72B27A0AD1A90641E73F1 /* Frameworks */,
+				8924EA95A4CBB1A9383D9AFD141E165B /* Resources */,
+				C05B49D947EDE8CA004FE63DE1243118 /* Support Files */,
+				B02062C5EB179DC15B34DBDC09DF24B2 /* XYTencentOpenAPI */,
+			);
+			name = XYTencentOpenAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8924EA95A4CBB1A9383D9AFD141E165B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE0761692E1ECC06281471F3FC3E84B9 /* XYTencentOpenAPI */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B02062C5EB179DC15B34DBDC09DF24B2 /* XYTencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3695C68CC9F72621645BE7AA384462C6 /* Assets */,
+				53883022E7EBE7E83AFC6A7E73CEBFA3 /* Classes */,
 			);
 			path = XYTencentOpenAPI;
 			sourceTree = "<group>";
 		};
-		BC953CC668EFCF4F659D4A190D97D7BC /* XYTencentOpenAPI */ = {
+		C05B49D947EDE8CA004FE63DE1243118 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3C18032E8B09F52DB3A69D2C04B02D82 /* Frameworks */,
-				42F341456424F2FFA76AFC0E56243DD9 /* Resources */,
-				FD0FAB866E4B6F1990130D0E563985A1 /* Support Files */,
-				AE59591FCCAAECBA2E7ECEB5916E4920 /* XYTencentOpenAPI */,
+				CC3C2A8403F4D40B99B90173B3CEE93B /* XYTencentOpenAPI.xcconfig */,
+				49BDAEE323F076B2704E5E8723DCE198 /* XYTencentOpenAPI-dummy.m */,
+				D7083F1C5BCD244B93AE88138295D7E3 /* XYTencentOpenAPI-prefix.pch */,
 			);
-			name = XYTencentOpenAPI;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XYTencentOpenAPI";
 			sourceTree = "<group>";
 		};
 		C48526815DF5283DEA65481060451FD0 /* Products */ = {
@@ -237,33 +269,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F85CC360727894C66804474657191E6F /* Assets */ = {
+		D93F9832DBC0B99F9407CD20B175384A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				5EDC5E8192C018ACDE06396B0DC1EAB2 /* TencentOpenApi_IOS_Bundle.bundle */,
+				771852FCF4C15C100190FD1CA2582C93 /* TencentOpenApi_IOS_Bundle.bundle */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		FD0FAB866E4B6F1990130D0E563985A1 /* Support Files */ = {
+		E0ADC0765E976207AD35989DDD0AB573 /* TencentOpenAPI.framework */ = {
 			isa = PBXGroup;
 			children = (
-				D6C1742E470DC4162B037242C6B220FF /* XYTencentOpenAPI.xcconfig */,
-				E10A8D7E7CF3E7BDA85F250A48852BD4 /* XYTencentOpenAPI-dummy.m */,
-				BCC0472BCB19123AE525F59AE5FC4BD4 /* XYTencentOpenAPI-prefix.pch */,
+				3214EBF972E4B036ECF452BD46AC534B /* Headers */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XYTencentOpenAPI";
+			path = TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		E3A6DFAB9FD72B27A0AD1A90641E73F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C03870BF92D17DA521E88F6FD91D68 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE0761692E1ECC06281471F3FC3E84B9 /* XYTencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D93F9832DBC0B99F9407CD20B175384A /* Assets */,
+			);
+			path = XYTencentOpenAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		981B39653EB03D62C6F7F8FB690BD62A /* Headers */ = {
+		D96B5E09DC716805D5DC8022367EE2AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E5F66F37FB26A77FBDAD426F63CB9AA /* TencentApi.h in Headers */,
+				9A92F08C0F6488ABD07A4477030BB865 /* QQApiInterface.h in Headers */,
+				4465F68DCEFD3EEA248CD0F95662C566 /* QQApiInterfaceObject.h in Headers */,
+				F847D9D1F771E148C99503F8FEEAB733 /* sdkdef.h in Headers */,
+				0E19E63A279A21145CB7AF53924346F8 /* TencentApi.h in Headers */,
+				408E4570A0C9A8E4D7132EEDFE729590 /* TencentApiInterface.h in Headers */,
+				977C550BF42740EA68984EDF3593549A /* TencentMessageObject.h in Headers */,
+				7F4D465A870C3CD6F32409038A15E677 /* TencentOAuth.h in Headers */,
+				1A3A88375A51DBB536016B5F86E949A0 /* TencentOAuthObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +361,7 @@
 			buildPhases = (
 				B6EB6C7F4B7E0BBB49D8FD80C346227D /* Sources */,
 				8DFB70248398AB79B2D82944C20068D1 /* Frameworks */,
-				981B39653EB03D62C6F7F8FB690BD62A /* Headers */,
+				D96B5E09DC716805D5DC8022367EE2AD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -468,7 +520,7 @@
 		};
 		420DB56233F97F151D4AECA6A9744E61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6C1742E470DC4162B037242C6B220FF /* XYTencentOpenAPI.xcconfig */;
+			baseConfigurationReference = CC3C2A8403F4D40B99B90173B3CEE93B /* XYTencentOpenAPI.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -531,7 +583,7 @@
 		};
 		C6ED5766D3EEDEAA68E5E7B934B8F391 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6C1742E470DC4162B037242C6B220FF /* XYTencentOpenAPI.xcconfig */;
+			baseConfigurationReference = CC3C2A8403F4D40B99B90173B3CEE93B /* XYTencentOpenAPI.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
