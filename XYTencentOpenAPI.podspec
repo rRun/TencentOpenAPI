@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 
   s.resources = "XYTencentOpenAPI/Assets/TencentOpenApi_IOS_Bundle.bundle"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'XYTencentOpenAPI/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 

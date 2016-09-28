@@ -21,6 +21,7 @@
   "requires_arc": true,
   "source_files": "XYTencentOpenAPI/Classes/**/*",
   "resources": "XYTencentOpenAPI/Assets/TencentOpenApi_IOS_Bundle.bundle",
+  "public_header_files": "XYTencentOpenAPI/Classes/**/*.h",
   "libraries": [
     "iconv",
     "z",
